@@ -90,9 +90,3 @@ Yes. Use "Choose potato position" to place the overlay on whichever monitor you 
 
 **How do I uninstall?**
 Go to **Settings → Apps** (Windows 11) or **Control Panel → Programs and Features** (Windows 10) and uninstall SlouchPotato from there.
-
----
-
-## Source code
-
-The source code is available at the parent repository. Built with Python, PyQt6, OpenCV, and MediaPipe. Packaged with Nuitka and Inno Setup.
