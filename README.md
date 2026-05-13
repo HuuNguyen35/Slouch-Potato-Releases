@@ -8,7 +8,7 @@ SlouchPotato is a lightweight Windows desktop app that watches your posture thro
 
 ## Download
 
-Download the latest installer: [**[SlouchPotato-Setup-1.0.1.exe](SlouchPotato-Setup-1.0.1.exe)**](https://github.com/HuuNguyen35/Slouch-Potato-Releases/releases/download/v1.0.2/SlouchPotato-Setup-1.0.2.exe)
+Download the latest installer: https://github.com/HuuNguyen35/Slouch-Potato-Releases/releases/download/v1.0.2/SlouchPotato-Setup-1.0.2.exe
 
 Run the installer and follow the wizard. No extra software required — everything is bundled.
 
