@@ -8,7 +8,7 @@ SlouchPotato is a lightweight Windows desktop app that watches your posture thro
 
 ## Download
 
-Download the latest: https://github.com/HuuNguyen35/Slouch-Potato-Releases/releases/download/v1.0.0/SlouchPotato-Setup-1.0.0.exe
+Download the latest installer: [**[SlouchPotato-Setup-1.0.1.exe](SlouchPotato-Setup-1.0.1.exe)**](https://github.com/HuuNguyen35/Slouch-Potato-Releases/releases/download/v1.0.2/SlouchPotato-Setup-1.0.2.exe)
 
 Run the installer and follow the wizard. No extra software required — everything is bundled.
 
@@ -27,16 +27,15 @@ The detection runs entirely on your machine — no video is sent anywhere.
 - **Webcam-based posture detection** — uses pose landmarks, not just face detection, for accuracy
 - **Growing potato overlay** — a playful but impossible-to-ignore visual reminder that floats above all windows without stealing focus or blocking clicks
 - **One-time calibration** — press Space in the dashboard to lock in your upright posture as the reference point
-- **Customisable potato position** — drag the potato to any spot on any monitor that suits you
 - **System tray integration** — reopens the dashboard if you close the window; a second launch brings it back instead of starting a duplicate
 - **Optional startup with Windows** — set during installation so SlouchPotato is always on guard
-- **Desktop shortcut** — created automatically on first run
+- **Optional desktop shortcut** — choose during installation whether to add one
 
 ---
 
 ## Installation
 
-1. Download **SlouchPotato-Setup-1.0.0.exe** from this folder.
+1. Download **SlouchPotato-Setup-1.0.1.exe** from this folder.
 2. Run the installer (administrator rights required).
 3. Optionally tick:
    - **Create a desktop shortcut**
@@ -53,12 +52,6 @@ The detection runs entirely on your machine — no video is sent anywhere.
 4. The overlay bar turns green — you're good to go.
 
 From now on, whenever your nose drops below your calibrated position the potato will appear. Sit up and it disappears.
-
----
-
-## Choosing the potato position
-
-Click **"Choose potato position"** in the dashboard. A full-screen selector appears — click anywhere on any monitor to pin the potato to that spot. The choice is saved and persists across restarts.
 
 ---
 
@@ -85,8 +78,11 @@ Check that no other application (Teams, Zoom, OBS, etc.) has exclusive access to
 **The potato appeared when I wasn't slouching.**
 Re-calibrate: open the dashboard, sit up straight, and press Space again.
 
-**Can I use SlouchPotato with multiple monitors?**
-Yes. Use "Choose potato position" to place the overlay on whichever monitor you prefer.
-
 **How do I uninstall?**
 Go to **Settings → Apps** (Windows 11) or **Control Panel → Programs and Features** (Windows 10) and uninstall SlouchPotato from there.
+
+---
+
+## Source code
+
+The source code is available at the parent repository. Built with Python, PyQt6, OpenCV, and MediaPipe. Packaged with PyInstaller and Inno Setup.
